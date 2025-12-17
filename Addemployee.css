@@ -1,0 +1,98 @@
+/* Page container */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+/* Page title (optional) */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+/* Labels */
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Inputs, select, textarea */
+.form-control,
+.form-select {
+  border-radius: 6px;
+  padding: 8px 10px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+/* Textarea */
+textarea.form-control {
+  resize: none;
+}
+
+/* Profile preview section */
+.preview-container {
+  margin-top: 20px;
+}
+
+.preview-container img {
+  display: block;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #f8f9fa;
+}
+
+/* Buttons */
+button.btn {
+  padding: 8px 20px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+button.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+button.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+button.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+button.btn-secondary:hover {
+  background-color: #5c636a;
+}
+
+/* Form spacing */
+.row.g-3 > div {
+  margin-bottom: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
